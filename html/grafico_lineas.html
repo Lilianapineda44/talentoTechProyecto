@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles_graficos.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body class="inicio">
+   
+    <div class="container-fluid" id="contenedor-menu">
+  
+        <img src="../assets/img/logo_proyecto.png" id="logo">
+        
+
+        <ul class="nav nav-pills" id="menu" >
+            <li class="nav-item">
+                <a href="inicio.html" class="nav-link" >
+                    <img src="../assets/img/hogar.png" id="logo_inicio">
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="simulador.html" >Consumo eléctrico</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="sobreNosotros.html" > Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactanos.html" >Contactanos</a>
+            </li>
+        </ul>
+
+    </div>
+
+        <div class="container-fluid" id="contenedor-graficos-lineas">
+
+            <h1 class="display-4" id="titulo-graficos">Capacidad Instalada</h1>
+
+
+            <div class="container-fluid" id="grafico_lineas">
+
+                    
+                    <div> 
+                        <canvas id="myChart"></canvas>
+                    </div>
+
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+                    <script> 
+                        const chartData = {
+                        labels: ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+                        datasets: [
+                            {
+                                label: 'Capacidad Eólica (GW)',
+                                data: [120, 135, 150, 170, 200, 230, 260, 290],
+                                borderColor: 'rgba(54, 162, 235, 1)',
+                                fill: false,
+                                tension: 0.1
+                            },
+                            {
+                                label: 'Capacidad Solar PV (GW)',
+                                data: [100, 120, 145, 180, 210, 260, 310, 370],
+                                borderColor: 'rgba(255, 206, 86, 1)',
+                                fill: false,
+                                tension: 0.1
+                            },
+                            {
+                                label: 'Capacidad Geotérmica (GW)',
+                                data: [13, 13.5, 14, 14.2, 14.5, 14.7, 15, 15.3],
+                                borderColor: 'rgba(75, 192, 192, 1)',
+                                fill: false,
+                                tension: 0.1
+                            }
+                        ]
+                    };
+
+                    // Get the canvas element
+                    const ctx = document.getElementById('myChart').getContext('2d');
+
+                    // Create the chart instance
+                    const myChart = new Chart(ctx, {
+                        type: 'line', 
+                        data: chartData, 
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: true, 
+                            scales: {
+                                y: {
+                                    beginAtZero: true,
+                                    title: {
+                                        display: true,
+                                        text: 'Capacidad (GW)'
+                                    }
+                                },
+                                x: {
+                                    title: {
+                                        display: true,
+                                        text: 'Año'
+                                    }
+                                }
+                            },
+                            plugins: {
+                                title: {
+                                    display: true,
+                                    text: 'Capacidad de Energías Renovables por Año'
+                                }
+                            }
+                        }
+                    });
+
+                    </script>
+
+            </div>
+        </div>  
+        
+        <a class="btn btn-primary" id="boton_atras" role="button" style="margin-top: -1050px;" href="simulador.html" > Volver a Gráficos</a>
+
+
+</body>
+
+<footer id="footer" style="margin-top: -190px;" >
+
+    <div class="container-fluid" id="logo_footer">
+        <img src="../assets/img/logo_proyecto.png" >
+    </div>
+
+    <div class="container-fluid" id="oficina">
+       <ul> 
+            <li class="ubicacion">
+                UBICACIÓN
+            </li><br>
+            <li class="oficinas">
+                Oficinas Valle de Aburra                                                                
+            </li><br>
+            <li class="oficinas">
+                Medellín <br>Carrera 45 # 78-96                                                               
+            </li><br>
+            <li class="oficinas">
+               Bello<br>Calle 85 A 103-81                                                                 
+            </li>
+        </ul>
+    </div>
+
+    <div class="container-fluid" id="redes">
+       <ul> 
+            <li class="plataformas">
+                REDES
+            </li><br>
+            <li class="red_social">
+                <a href="https://www.instagram.com/">INSTAGRAM</a>                                                               
+            </li><br>
+            <li class="red_social">
+                <a href="https://www.facebook.com/?locale=es_LA">FACEBOOK</a>                                                                
+            </li><br>
+        </ul>
+    </div>
+
+    <div class="container-fluid" id="contacto">
+       <ul> 
+            
+            <li class="contactanos">
+                CONTACTO
+            </li><br>
+            <li class="contactos">
+                renova2025@gmail.com
+            </li><br>
+            <li class="contactos">
+                +57 3005267849                                                               
+            </li><br>
+            <li class="contactos">
+                +57 3006307541                                                                
+            </li><br>
+        </ul>
+    </div>
+
+    <div class="container-fluid" id="derechos">
+        <p>&copy; 2025 Renova . Todos los derechos reservados.</p>
+        <p>
+            <a href="/politica-privacidad" style="color: #555; text-decoration: none; margin-bottom: 50px; ">Política de Privacidad</a> |
+            <a href="/terminos-condiciones" style="color: #555; text-decoration: none; ">Términos y Condiciones</a>
+        </p>
+    </div>
+   
+</footer>
+
+</html>
