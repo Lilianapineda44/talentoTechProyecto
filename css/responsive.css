@@ -5,27 +5,35 @@
 @media (max-width: 768px) {
 
     #contenedor-menu {
+        display: flex;
         width: 100%; 
-        padding: 15px;
     }
 
     #logo_inicio{
-        width: 30px;
+        width: 20px;
+        height: 20px;
         margin-top: -10px;
+        margin-left: -32px;
+    }
+
+    #menu{
+    float: right;
+    padding-top: 43px;
+    
     }
 
     #menu a {
-        margin-top: -120px;
-        padding: 10px;
-        font-size: 16px;
+        align-items: center;
+        padding: 6px;
+        font-size: 13px;
     }
 
     #logo{
-        width: 280px; 
-        height: 298px;
-        margin-top: -102px;
-        margin-left: 90px;
-        padding-top: 75px;
+        width: 200px; 
+        height: 198px;
+        margin-top: -30px;
+        margin-left: -45px;
+        
     }
 
     #intro{
@@ -327,16 +335,21 @@
         margin-top: -10px;
     }
 
+    #menu{
+        float: right;
+        padding-top: 33px;
+    }
+
     #menu a {
         margin-top: -30px;
         padding: 45px;
     }
 
     #logo{
-        width: 380px; 
-        height: 298px;
-        margin-top: -60px;
+        width: 270px; 
+        height: 200px;
         margin-left: 20px;
+        margin-top: -25px;
     }
 
 

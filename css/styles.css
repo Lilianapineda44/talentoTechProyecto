@@ -20,21 +20,19 @@ body{
 
 #contenedor-menu{
     background-image: linear-gradient(to right,#14213d, #000000);
-    padding-top: 50px;
-    padding-bottom: 80px;
-    height: 220px;
+    height: 120px;
     width: 100%;
 
 }
 
 #menu{
     float: right;
-    padding-top: 70px;
-    margin-right: 2%;
+    padding-top: 33px;
+    
 }
 
 #menu a{
-    font-size: 18px;
+    font-size: 14px;
     padding: 0px 50px;
 }
 
@@ -47,18 +45,16 @@ body{
 }
 
 #logo{
-    width: 370px; 
-    height: 328px;
-    margin-top: -7px;
-    margin-left: 50px;
-
+    width: 270px; 
+    height: 200px;
+    margin-left: 20px;
 }
 
 
 
 #logo_inicio{
-    width: 40px;
-    margin-top: -10px;
+    width: 10px;
+    height: 30px;
 }
 
 #intro{
