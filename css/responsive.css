@@ -50,8 +50,10 @@
     }
 
     #carousel{
+        display: flex;
         height: 330px;
         width: 320px;
+        justify-content: center;
         align-items: center;
         margin-top: 30px;
         margin-bottom: 180px;
