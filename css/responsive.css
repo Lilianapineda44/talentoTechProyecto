@@ -45,15 +45,15 @@
     #intro p{
         font-size: 26px;
         text-align: center; 
-        margin-top: 10px; 
-        margin-bottom: 10px;
+        margin-top: 15px; 
+        margin-bottom: 15px;
     }
 
     #carousel{
-        height: 320px;
+        height: 330px;
         width: 320px;
         margin-left: 3%; 
-        margin-right: 2%;
+        margin-right: 3%;
         margin-top: 30px;
         margin-bottom: 180px;
     }
