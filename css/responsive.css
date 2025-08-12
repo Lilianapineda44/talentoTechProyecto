@@ -48,9 +48,10 @@
     }
 
     #carousel{
-        height: 400px;
-        width: 400px;
+        height: 350px;
+        width: 350px;
         margin-left: 3%; 
+        margin-right: 3%;
         margin-top: 30px;
         margin-bottom: 180px;
     }
