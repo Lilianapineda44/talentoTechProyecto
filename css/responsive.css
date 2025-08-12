@@ -51,19 +51,19 @@
 
     #carousel{
         display: flex;
-        height: 90%;
-        width: 320px;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
         margin-left: 6px;
-        margin-top: 15px;
-        margin-bottom: 230px;
+        margin-top: 20px;
     }
 
-    #pie-carrusel{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
+    
+
+    .carousel-control-prev{
+       margin-top: -120%; 
+    }
+
+    .carousel-control-next{
+        margin-top: -120%;
     }
 
     .inicio{
