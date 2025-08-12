@@ -51,12 +51,12 @@
 
     #carousel{
         display: flex;
-        height: 330px;
+        height: 90%;
         width: 320px;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
-        margin-bottom: 180px;
+        margin-top: 15px;
+        margin-bottom: 230px;
     }
 
     #pie-carrusel{
