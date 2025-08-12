@@ -55,6 +55,7 @@
         width: 320px;
         justify-content: center;
         align-items: center;
+        margin-left: 6px;
         margin-top: 15px;
         margin-bottom: 230px;
     }
