@@ -20,9 +20,8 @@ body{
 
 #contenedor-menu{
     background-image: linear-gradient(to right,#14213d, #000000);
-    height: 120px;
     width: 100%;
-
+    height: 120px;
 }
 
 #menu{
