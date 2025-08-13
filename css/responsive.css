@@ -114,13 +114,14 @@
     #menu{
     float: right;
     padding-top: 23px;
-    margin-left: -15%;
+    margin-left: 10%;
+    align-items: center;
     }
 
 
     #menu a {
         padding: 6px;
-        font-size: 12px;
+        font-size: 11px;
     }
 
 
