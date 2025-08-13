@@ -13,20 +13,21 @@
         width: 20px;
         height: 20px;
         margin-top: -10px;
-        margin-left: -32px;
+        margin-left: 5px;
+        margin-right: 15px;
     }
 
     #menu{
     float: right;
-    padding-top: 43px;
-    
+    padding-top: 23px;
+
     }
 
     #menu a {
-        align-items: center;
         padding: 6px;
-        font-size: 13px;
+        font-size: 12px;
     }
+
 
     #logo{
         width: 200px; 
@@ -39,32 +40,32 @@
     #intro{
         width: auto;
         height: 240px;
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     #intro p{
         font-size: 26px;
         text-align: center; 
-        margin-top: 15px; 
-        margin-bottom: 15px;
+         
     }
 
     #carousel{
-        display: flex;
         width: 100%;
-        margin-left: 6px;
+        height: 480px;
+        margin-left: 0px;
         margin-top: 20px;
+        margin-bottom: 55px;
     }
 
-    
 
-    .carousel-control-prev{
+    /*.carousel-control-prev{
        margin-top: -120%; 
-    }
+    }*/
 
-    .carousel-control-next{
+    /*.carousel-control-next{
         margin-top: -120%;
-    }
+    }*/
+
 
     .inicio{
         background-size:cover; 
