@@ -20,16 +20,18 @@
     }
 
     #menu{
-    align-items: center;
-    padding-top: 19px;
-    margin-left: 2%;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    margin-left: 42%;
     }
 
 
     #menu a {
-        padding: 6px;
-        font-size: 11px;
+        padding: 4px;
+        font-size: 10px;
     }
+
+    
 
 
     #logo{
