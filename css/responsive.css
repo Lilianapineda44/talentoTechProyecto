@@ -101,7 +101,9 @@
 
     #contenedor-menu {
         display: flex;
+        align-items: center;
         width: 100%; 
+
     }
 
     #logo_inicio{
@@ -115,7 +117,7 @@
     #menu{
     float: right;
     padding-top: 23px;
-    margin-left: 347px;
+    margin-left: 287px;
     }
 
 
@@ -126,9 +128,9 @@
 
 
     #logo{
-        width: 183px; 
-        height: 168px;
-        margin-top: -16px;
+        width: 135px; 
+        height: 130px;
+        margin-top: 12px;
         margin-left: -38px;
         
     }
