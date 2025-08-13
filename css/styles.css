@@ -28,11 +28,12 @@ body{
 #menu{
     float: right;
     padding-top: 33px;
+    margin-left: 45%;
     
 }
 
 #menu a{
-    font-size: 14px;
+    font-size: 19px;
     padding: 0px 50px;
 }
 

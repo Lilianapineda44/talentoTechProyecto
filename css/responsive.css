@@ -96,8 +96,6 @@
     } 
 }
 
-
-/*Tablet*/
 @media (max-width: 768px) {
 
     #contenedor-menu {
@@ -116,8 +114,9 @@
     #menu{
     float: right;
     padding-top: 23px;
-
+    margin-left: -15%;
     }
+
 
     #menu a {
         padding: 6px;
@@ -147,7 +146,7 @@
 
     #carousel{
         width: 100%;
-        height: 480px;
+        height: 385px;
         margin-left: 0px;
         margin-top: 20px;
         margin-bottom: -60px;
@@ -442,13 +441,15 @@
     }
 
     #logo_inicio{
-        width: 35px;
+        width: 30px;
+        height: 25px;
         margin-top: -10px;
     }
 
     #menu{
         float: right;
         padding-top: 33px;
+        margin-left: 29%;
     }
 
     #menu a {
@@ -460,7 +461,6 @@
         width: 270px; 
         height: 200px;
         margin-left: 20px;
-        margin-top: -25px;
     }
 
 
@@ -701,6 +701,23 @@
         color:#ebebeb;
         
     }
+
+    #menu{
+        float: right;
+        padding-top: 84px;
+        margin-left: 45%;
+        
+    }
+
+    #menu a{
+        font-size: 14px;
+        padding: 0px 50px;
+    }
+
+    #logo_inicio{
+    width: 28px;
+    height: 30px;
+}
 
     #carousel{
         width: 700px;
