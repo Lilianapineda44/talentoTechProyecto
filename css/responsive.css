@@ -21,17 +21,17 @@
         margin-right: 15px;
     }
 
-    #menu{
+    /*#menu{
     float: right;
     padding-top: 23px;
+    margin-left: -2px;
     
-    }
+    }*/
 
-    #menu a {
+    /*#menu a {
         padding: 6px;
-        font-size: 12px;
-        
-    }
+        font-size: 12px; 
+    }*/
 
 
     #logo{
@@ -116,8 +116,8 @@
 
     #menu{
     float: right;
-    padding-top: 23px;
-    margin-left: 287px;
+    padding-top: 47px;
+    margin-left: 30%;
     }
 
 
