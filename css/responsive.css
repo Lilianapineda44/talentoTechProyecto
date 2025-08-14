@@ -361,7 +361,7 @@
     #menu{
         float: right;
         padding-top: 33px;
-        margin-left: 13%;
+        margin-left: 33%;
     }
 
     #menu a {
@@ -374,12 +374,13 @@
         width: 270px; 
         height: 200px;
         margin-top: -27px;
+        margin-left: -47px;
         
     }
 
 
     #intro{
-        width: 50%;
+        width: 67%;
         height: 290px;
         border-radius: 12px;
         background: #0a9396;
@@ -388,7 +389,7 @@
     }
 
     #intro p{
-        font-size: 26px;
+        font-size: 24px;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -398,7 +399,7 @@
     #carousel{
         height: 300px;
         width: 550px;
-        margin-left: 27%;
+        margin-left: 24%;
         margin-bottom: 200px; 
     }
 
