@@ -22,8 +22,8 @@
     }
 
     #menu{
-    padding-top: 62px;
-    margin-left: -22%;
+    padding-top: 53px;
+    margin-left: -51%;
     
     }
 
@@ -35,9 +35,9 @@
 
 
     #logo{
-        width: 137px; 
-        height: 142px;
-        margin-top:-25px;
+        width: 93px; 
+        height: 100px;
+        margin-top:-18px;
         margin-left: 142px;        
     }
 
@@ -361,7 +361,7 @@
     #menu{
         float: right;
         padding-top: 33px;
-        margin-left: 23%;
+        margin-left: 13%;
     }
 
     #menu a {
@@ -388,7 +388,7 @@
     }
 
     #intro p{
-        font-size: 30px;
+        font-size: 26px;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -398,7 +398,7 @@
     #carousel{
         height: 300px;
         width: 550px;
-        margin-left: 20%;
+        margin-left: 27%;
         margin-bottom: 200px; 
     }
 
